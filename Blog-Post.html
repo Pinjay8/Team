@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg p-0">
+      <!-- Container wrapper -->
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand">
+          <img src="img/Blog-Logo.png" />
+        </a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars text-black"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left links -->
+          <ul class="navbar-nav ms-auto mb-2 gap-4 text-black me-5 mt-1">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Blog-Page-1.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Support.html">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">Log In</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+
+          <div class="ms-0">
+            <a type="button" href="#" class="btn px-4 text-black btn-blog">Get Access</a>
+          </div>
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+    <section class="blog-post">
+      <div class="container">
+        <div class="row justify-content-center align-content-center">
+          <div class="col-12 col-md-7 pb-5">
+            <div class="heading-blog-post flex-column">
+              <h1>Data exported by Team <br />Cloud organization <br />administrators contained <br />private files</h1>
+
+              <div class="d-flex blog-profile">
+                <img src="img/Blog_Avatar_2/Blog_Avatar_8.png" alt="Gambar Blog Post" class="rounded-circle" style="width: 56px; height: 56px" />
+                <div class="d-flex align-items-center justify-content-center ms-2 text-secondary">
+                  <div class="name">Mark Brooklyn | June 14, 2023</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-post-img">
+      <div class="container p-0">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-10">
+            <div class="img-blog-post">
+              <img src="img/Blog_Img_2/blog_post_img.png" alt="Gambar Blog Post" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-post-text">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-7 pb-5">
+            <div class="main-blog-post">
+              <p>
+                Administrators of Team Cloud organizations can export public data from their organization via the organization settings menu. The exports include all the data that appears in public streams, and can be used to migrate from
+                Team Cloud to self-hosting Team. Note that exporting private data is a separate process that requires contacting Team Support.<br /><br />
+                Due to a bug in the public export code, exports of public data contained all uploaded files, even those from private messages and private streams. This may have allowed organization owners or administrators to extract
+                uploaded files that they were not otherwise allowed to access. The content of non-public messages was never included in public exports. <br />
+                <br />This bug has existed since the public export feature was implemented in August 2019. We have deleted all existing Team Cloud exports from our servers, and will be making changes to auto-expire all exports after 7 days
+                in the future. This bug was fixed for self-hosted users in the Team Server 5.4 release.<br /><br />
+                We have notified by email all administrators and users in non-deactivated Team Cloud organizations who may have been impacted by this bug. As many organizations have never exported their data, most Team Cloud users were not
+                affected. We would like to thank Antoine Benoist for bringing this issue to our attention.
+              </p>
+            </div>
+
+            <div class="d-flex blog-profile-text">
+              <img src="img/Blog_Avatar_2/Blog_Avatar_8.png" alt="Gambar Blog Post" class="rounded-circle" style="width: 56px; height: 56px" />
+              <div class="d-flex justify-content-center text-secondary flex-column ps-2 ms-2">
+                <div class="name-first">Written By</div>
+                <div class="name-second">Mark Brooklyn</div>
+                <div class="name-third">
+                  COO at Team. Author of the upcoming book on <br />
+                  Team Management and Leadership.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="text-secondary w-50" style="margin-left: 25% !important; margin-right: 25% !important" />
+
+    <section class="conversation">
+      <div class="container">
+        <div class="row justify-content-center align-content-center">
+          <div class="col-12 col-md-7 pb-5">
+            <p class="mb-5">Join the conversation</p>
+            <div class="d-flex">
+              <img src="img/Comment_Img.png" alt="Gambar Blog Post" class="rounded-circle me-2" style="width: 56px; height: 56px" />
+              <textarea name="" id="" cols="95" rows="7" class="conversation-comment rounded p-2" placeholder="Comments"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container mt-5">
+        <div class="text-white">
+          <div class="row">
+            <div class="col-lg-3 col-12 col-xs-3 order-1 p-0">
+              <div class="footer-text pull-left">
+                <img src="img/team..png" />
+                <p class="card-text mt-4">
+                  Collaboration platform <br />
+                  for mordern team
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-12 order-3 p-0">
+              <h5 class="heading">Company</h5>
+              <ul class="footer-ul ps-0">
+                <li>Product</li>
+                <li>Blog</li>
+                <li>Support</li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-12 order-4 p-0">
+              <h5 class="heading">Features</h5>
+              <ul class="footer-ul ps-0">
+                <li>Screen Sharing</li>
+                <li>iOS & Android Apps</li>
+                <li>File Sharing</li>
+                <li>User Management</li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-12 order-5 p-0">
+              <h5 class="heading">Contact Us</h5>
+              <ul class="footer-ul ps-0">
+                <li>info@teamapp.com</li>
+                <li>1-800-200-300</li>
+                <li>
+                  1010 Sunset Blv. <br />
+                  Palo Alto, California
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 order-2 order-sm-last p-0">
+              <h5 class="heading">Stay Up To Date</h5>
+              <ul class="footer-ul ps-0">
+                <li>Subscribe to our newseller</li>
+              </ul>
+
+              <div class="position-relative">
+                <input type="text" id="inputEmail" class="form-control bg-footer" aria-label="Text input with dropdown button" placeholder="Email" />
+                <!-- <i class="fa-solid fa-arrow-right text-secondary" style="color: white"></i> -->
+                <svg class="icon-navigation-arrow-forward-24-px position-absolute end-0 top-50 translate-middle-y me-2" width="32" height="32" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.20874 13.5H16.3787L11.4987 18.38C11.1087 18.77 11.1087 19.41 11.4987 19.8C11.8887 20.19 12.5187 20.19 12.9087 19.8L19.4987 13.21C19.8887 12.82 19.8887 12.19 19.4987 11.8L12.9187 5.19996C12.7319 5.0127 12.4783 4.90747 12.2137 4.90747C11.9492 4.90747 11.6956 5.0127 11.5087 5.19996C11.1187 5.58996 11.1187 6.21996 11.5087 6.60996L16.3787 11.5H5.20874C4.65874 11.5 4.20874 11.95 4.20874 12.5C4.20874 13.05 4.65874 13.5 5.20874 13.5Z"
+                    fill="#7676B2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="font-size: 10px">
+            <div class="col-md-6 col-sm-6 col-xs-6 p-0">
+              <div class="pull-left mt-5">
+                <p><i class="fa fa-copyright"></i> Copyright Team Inc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Script JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
